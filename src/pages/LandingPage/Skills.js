@@ -22,8 +22,8 @@ const Skills = () => {
             <div className="skill">
               <p>Javascript</p>
               <div className="skill-container">
-                <div className="skill-value value-70"></div>
-                <p className="skill-text skill-text-70">
+                <div className="skill-value value-80"></div>
+                <p className="skill-text skill-text-80">
                   80%
                 </p>
               </div>
@@ -31,9 +31,9 @@ const Skills = () => {
             <div className="skill">
               <p>React</p>
               <div className="skill-container">
-                <div className="skill-value value-80"></div>
-                <p className="skill-text skill-text-80">
-                  90%
+                <div className="skill-value value-85"></div>
+                <p className="skill-text skill-text-85">
+                  85%
                 </p>
               </div>
             </div>
@@ -41,29 +41,29 @@ const Skills = () => {
           <article>
             <h3>back end</h3>
             <div className="skill">
-              <p>Node</p>
+              <p>GraphQL</p>
               <div className="skill-container">
                 <div className="skill-value"></div>
                 <p className="skill-text">
-                  80%
+                  70%
                 </p>
               </div>
             </div>
             <div className="skill">
               <p>Express</p>
               <div className="skill-container">
-                <div className="skill-value value-70"></div>
-                <p className="skill-text skill-text-70">
-                  70%
+                <div className="skill-value value-80"></div>
+                <p className="skill-text skill-text-80">
+                  80%
                 </p>
               </div>
             </div>
             <div className="skill">
-              <p>GraphQL</p>
+              <p>Node</p>
               <div className="skill-container">
-                <div className="skill-value value-80"></div>
-                <p className="skill-text skill-text-80">
-                  70%
+                <div className="skill-value value-85"></div>
+                <p className="skill-text skill-text-85">
+                  85%
                 </p>
               </div>
             </div>

@@ -41,7 +41,7 @@ const Testimonial = () => {
             3
           </span>
         </article>
-        <article className="timeline-item">
+        {/* <article className="timeline-item">
           <h4>2017</h4>
           <p>
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione
@@ -73,7 +73,7 @@ const Testimonial = () => {
           <span className="number">
             6
           </span>
-        </article>
+        </article> */}
       </div>
     </section>
     )

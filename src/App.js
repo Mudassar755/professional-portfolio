@@ -1,6 +1,7 @@
 import React from 'react';
 import LandingPage from './pages/LandingPage'
-import './css/styles.css';
+// import './css/styles.css';
+import './App.css';
 import './assets/fontawesome-free-5.12.1-web/css/all.min.css';
 import Footer from './compnents/Footer';
 import Navbar from './compnents/Navbar';
