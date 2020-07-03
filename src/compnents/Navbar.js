@@ -28,13 +28,13 @@ const Navbar = () => {
             <Link to="/">home</Link>
           </li>
           <li>
-            <Link to="/">about</Link>
+            <Link to="/about">about</Link>
           </li>
           <li>
-            <Link to="/">projects</Link>
+            <Link to="/projects">projects</Link>
           </li>
           <li>
-            <Link to="/">contact</Link>
+            <Link to="/contact">contact</Link>
           </li>
         </ul>
       </div>
@@ -49,13 +49,13 @@ const Navbar = () => {
             <Link to="/">home</Link>
           </li>
           <li>
-            <Link to="/">about</Link>
+            <Link to="/about">about</Link>
           </li>
           <li>
-            <Link to="/">projects</Link>
+            <Link to="/projects">projects</Link>
           </li>
           <li>
-            <Link to="/">contact</Link>
+            <Link to="/contact">contact</Link>
           </li>
         </ul>
         <ul className="social-icons">

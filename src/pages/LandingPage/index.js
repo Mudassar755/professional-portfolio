@@ -5,7 +5,8 @@ import Services from './Services';
 import Projects from './Projects';
 import Contact from './Contact';
 import Skills from './Skills';
-import Testimonial from './Testimonial'
+import Testimonial from './Testimonial';
+import Blogs from './Blogs'
 
 const LandingPage = () => {
     return (
@@ -17,6 +18,7 @@ const LandingPage = () => {
             <Contact />
             <Skills />
             <Testimonial />
+            <Blogs />
         </Fragment>
     )
 }

@@ -1,5 +1,5 @@
 import React, {Fragment} from 'react';
-import heroImg from '../../assets/images/hero-img.jpeg';
+import heroImg from '../../assets/images/mudasar3.png';
 import {Link} from 'react-router-dom'
 
 const Header = () => {
