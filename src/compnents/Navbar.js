@@ -19,7 +19,6 @@ const Navbar = () => {
       <div className="nav-center">
         <div className="nav-header">
           <h2><span style = {{textDecoration: "underline"}}>Mudas</span><span style = {{color: "#E9B949", textDecoration: "underline"}}>Sir</span> <br />
-          {/* <span style = {{fontSize: "medium", position: "absolute"}}>Developer</span> */}
           </h2>
           {/* <img src={logo} className="nav-logo" alt="nav logo" /> */}
           <button className="nav-btn" id="nav-btn" onClick = {() => showSidebar()}>
