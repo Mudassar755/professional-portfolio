@@ -1,5 +1,6 @@
 import React from 'react';
-import aboutImg from '../../assets/images/about-img.jpeg'
+import aboutImg from '../../assets/images/about-img.jpeg';
+import {Link} from 'react-router-dom';
 
  const About = () => {
     return (
@@ -31,7 +32,7 @@ import aboutImg from '../../assets/images/about-img.jpeg'
               consequuntur, doloribus inventore reprehenderit officiis. Dolore
               aut, repellendus eius fugiat numquam cumque.
             </p>
-            <a href="/about" className="btn">about me</a>
+            <Link to="/about" className="btn">about me</Link>
           </article>
         </div>
       </section>

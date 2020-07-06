@@ -1,6 +1,8 @@
 import React from 'react';
 import connectVideo from '../../assets/videos/connect.mp4';
-import poster from '../../assets/images/project-1.jpeg'
+import poster from '../../assets/images/project-1.jpeg';
+import {Link} from 'react-router-dom';
+
 
 const Contact = () => {
     return (
@@ -28,7 +30,7 @@ const Contact = () => {
             cupiditate dicta magni quas corrupti aperiam, rerum minus odio totam
             repellendus delectus nostrum veniam!
           </p>
-          <a href="contact.html" className="btn">contact me</a>
+          <Link to="/contact" className="btn">contact me</Link>
         </div>
       </section>
     )

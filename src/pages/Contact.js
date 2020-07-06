@@ -10,7 +10,7 @@ const Contact = () => {
       <div className="section-center page-info">
         <p>
           If you are looking to get ahold of me, you can send me an email at
-          <a href="mailto:email@email.com">@your_email</a>
+          <a href="mailto:mudasar.se@gmail.com"> mudasar.se@gmail.com</a>
         </p>
         <p>
           You can also reach me on Twitter at

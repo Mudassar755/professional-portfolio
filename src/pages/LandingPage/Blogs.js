@@ -1,6 +1,6 @@
 import React from 'react';
 
-import hero_small from '../../assets/images/mudasar3-small.png';
+import hero_small from '../../assets/images/mudasar2-small.png';
 import project_1 from '../../assets/images/project-1.jpeg';
 import project_2 from '../../assets/images/project-2.jpeg';
 import project_3 from '../../assets/images/project-3.jpeg';

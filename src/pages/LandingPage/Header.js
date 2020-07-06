@@ -1,5 +1,5 @@
 import React, {Fragment} from 'react';
-import heroImg from '../../assets/images/mudasar3.png';
+import heroImg from '../../assets/images/mudasar2.png';
 import {Link} from 'react-router-dom'
 
 const Header = () => {
@@ -9,7 +9,7 @@ const Header = () => {
           <div className="section-center hero-center">
             <article className="hero-info">
               <div className="underline"></div>
-              <h1>i'm mudassar</h1>
+              <h1>i'm mudassir</h1>
               <h4>web & mobile App Developer (MERN Stack)</h4>
               <Link to="/" className="btn hero-btn">hire me</Link>
               <ul className="social-icons hero-icons">
