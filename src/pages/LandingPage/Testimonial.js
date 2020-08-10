@@ -1,14 +1,25 @@
-import React from 'react'
+import React, { useEffect } from 'react'
+import AOS from 'aos';
+// import "aos/dist/aos.css";
 
 const Testimonial = () => {
-    return (
-        <section className="section timeline">
-      <div className="section-title">
+  useEffect(() => {
+    AOS.init({
+      offset: 200,
+      duration: 600,
+      easing: 'ease-in-sine',
+      delay: 100,
+    });
+    AOS.refresh();
+  }, [])
+  return (
+    <section className="section timeline">
+      <div className="section-title" data-aos="flip-left">
         <h2>timeline</h2>
         <div className="underline"></div>
       </div>
       <div className="section-center timeline-center">
-        <article className="timeline-item">
+        <article className="timeline-item" data-aos="fade-right">
           <h4>2020</h4>
           <p>
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione
@@ -19,7 +30,7 @@ const Testimonial = () => {
             1
           </span>
         </article>
-        <article className="timeline-item">
+        <article className="timeline-item" data-aos="fade-left">
           <h4>2019</h4>
           <p>
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione
@@ -30,7 +41,7 @@ const Testimonial = () => {
             2
           </span>
         </article>
-        <article className="timeline-item">
+        <article className="timeline-item" data-aos="fade-right">
           <h4>2018</h4>
           <p>
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione
@@ -76,7 +87,7 @@ const Testimonial = () => {
         </article> */}
       </div>
     </section>
-    )
+  )
 }
 
 export default Testimonial

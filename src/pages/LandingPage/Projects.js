@@ -1,13 +1,27 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import project1 from '../../assets/images/project-1.jpeg';
 import project2 from '../../assets/images/project-2.jpeg';
 import project3 from '../../assets/images/project-3.jpeg';
 import project4 from '../../assets/images/project-4.jpeg';
 
+import { Link } from 'react-router-dom'
+
+import AOS from 'aos';
+import "aos/dist/aos.css";
+
 const Projects = () => {
-    return (
-        <section className="section projects">
-      <div className="section-title">
+  useEffect(() => {
+    AOS.init({
+      offset: 200,
+      duration: 600,
+      easing: 'ease-in-sine',
+      delay: 100,
+    });
+    AOS.refresh();
+  }, [])
+  return (
+    <section className="section projects">
+      <div className="section-title" data-aos="flip-right">
         <h2>latest works</h2>
         <div className="underline"></div>
         <p className="projects-text">
@@ -19,8 +33,8 @@ const Projects = () => {
         </p>
       </div>
       <div className="section-center projects-center">
-        <a href="projects.html" className="project-1">
-          <article className="project">
+        <Link to="/projects" className="project-1">
+          <article className="project" data-aos="fade-right">
             <img
               src={project1}
               alt="single project"
@@ -31,9 +45,9 @@ const Projects = () => {
               <p>client name</p>
             </div>
           </article>
-        </a>
-        <a href="projects.html" className="project-2">
-          <article className="project">
+        </Link>
+        <Link to="/projects" className="project-2">
+          <article className="project" data-aos="fade-down">
             <img
               src={project2}
               alt="single project"
@@ -44,9 +58,9 @@ const Projects = () => {
               <p>client name</p>
             </div>
           </article>
-        </a>
-        <a href="projects.html" className="project-3">
-          <article className="project">
+        </Link>
+        <Link to="/projects" className="project-3">
+          <article className="project" data-aos="fade-up">
             <img
               src={project3}
               alt="single project"
@@ -57,9 +71,9 @@ const Projects = () => {
               <p>client name</p>
             </div>
           </article>
-        </a>
-        <a href="projects.html" className="project-4">
-          <article className="project">
+        </Link>
+        <Link to="/projects" className="project-4">
+          <article className="project" data-aos="fade-up">
             <img
               src={project4}
               alt="single project"
@@ -70,10 +84,10 @@ const Projects = () => {
               <p>client name</p>
             </div>
           </article>
-        </a>
+        </Link>
       </div>
     </section>
-    )
+  )
 }
 
 export default Projects;

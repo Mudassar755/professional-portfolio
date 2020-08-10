@@ -1,13 +1,23 @@
-import React from 'react'
+import React, { useEffect } from 'react';
+import AOS from 'aos'
 
 const About = () => {
-    return (
-        <section className="section single-page">
-      <div className="section-title">
+  useEffect(() => {
+    AOS.init({
+      offset: 200,
+      duration: 600,
+      easing: 'ease-in-sine',
+      delay: 100,
+    });
+    AOS.refresh();
+  }, [])
+  return (
+    <section className="section single-page">
+      <div className="section-title" data-aos="flip-right">
         <h1>about me</h1>
         <div className="underline"></div>
       </div>
-      <div className="section-center page-info">
+      <div className="section-center page-info" data-aos="fade-right">
         <p>
           Hello, I am John Doe and I am a web developer. I live and work in
           somewhere warm. I spend most of my day, experimenting with HTML, CSS
@@ -15,12 +25,12 @@ const About = () => {
           and the challenge of learning something new everyday. You can also
           find me at youtube channel
           <a href="https://www.youtube.com/channel/UCMZFwxv5l-XtKi693qMJptA"
-            >coding addict</a
+          >coding addict</a
           >
         </p>
       </div>
     </section>
-    )
+  )
 }
 
 export default About
