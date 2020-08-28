@@ -24,9 +24,9 @@ const Services = () => {
           <h4>web development</h4>
           <div className="underline"></div>
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates
-            corrupti animi saepe quasi excepturi cupiditate voluptate dolor sed
-            obcaecati vero.
+            I have great experience in web development with complex web based projects.
+            In the area of Web Development I have wide range of experience in MERN Stack
+            React.Js, Node.Js, MongoDB, ExpressJs
             </p>
         </article>
         <article className="service" data-aos="fade-down">
@@ -34,9 +34,8 @@ const Services = () => {
           <h4>web design</h4>
           <div className="underline"></div>
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates
-            corrupti animi saepe quasi excepturi cupiditate voluptate dolor sed
-            obcaecati vero.
+            I have great experince to convert any PSD or Images to Responsive Design with
+            React.Js, Styled-Components and other libraries. Highly proficient in creating reuseable components.
             </p>
         </article>
         <article className="service" data-aos="fade-left">
@@ -44,9 +43,7 @@ const Services = () => {
           <h4>app design</h4>
           <div className="underline"></div>
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates
-            corrupti animi saepe quasi excepturi cupiditate voluptate dolor sed
-            obcaecati vero.
+            I can design any mobile app in Reac-Native with reuseable components.
             </p>
         </article>
       </div>

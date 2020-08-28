@@ -241,6 +241,10 @@ Navbar
     -webkit-transition: var(--transition);
     transition: var(--transition);
   }
+  /* .nav-links a.active {
+    border-bottom: 5px solid var(--clr-primary-5);
+    border-bottom-left-radius: 10px;
+  } */
   .nav-links a:hover {
     color: var(--clr-primary-5);
   }

@@ -35,11 +35,9 @@ const Contact = () => {
           <div className="underline"></div>
         </div>
         <p className="video-text">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni ratione
-          perferendis exercitationem sit. Beatae eius commodi officiis rem
-          soluta ratione dignissimos quisquam tempore laudantium, porro vitae
-          cupiditate dicta magni quas corrupti aperiam, rerum minus odio totam
-          repellendus delectus nostrum veniam!
+          You Can contact me to hire for any knid of
+          services related to Web Development and Design or Mobile App Development and Design.
+          For Node.JS Rest API`s
           </p>
         <Link to="/contact" className="btn">contact me</Link>
       </div>

@@ -1,8 +1,19 @@
 import React, { useEffect } from 'react';
-import project1 from '../../assets/images/project-1.jpeg';
-import project2 from '../../assets/images/project-2.jpeg';
-import project3 from '../../assets/images/project-3.jpeg';
-import project4 from '../../assets/images/project-4.jpeg';
+// import project1 from '../../assets/images/project-1.jpeg';
+// import project2 from '../../assets/images/project-2.jpeg';
+// import project3 from '../../assets/images/project-3.jpeg';
+// import project4 from '../../assets/images/project-4.jpeg';
+// import proj1 from '../../assets/images/proj-1.1.png';
+import proj2 from '../../assets/images/proj-1.2.png';
+// import proj3 from '../../assets/images/proj-1.3.png';
+import proj4 from '../../assets/images/proj-2.1.png';
+// import proj5 from '../../assets/images/proj-2.2.png';
+import proj6 from '../../assets/images/proj-3.1.png';
+// import proj7 from '../../assets/images/proj-3.2.png';
+// import proj8 from '../../assets/images/proj-4.1.png';
+// import proj9 from '../../assets/images/proj-4.2.png';
+// import proj10 from '../../assets/images/proj-5.1.png';
+import proj11 from '../../assets/images/proj-6.1.png';
 
 import { Link } from 'react-router-dom'
 
@@ -25,63 +36,59 @@ const Projects = () => {
         <h2>latest works</h2>
         <div className="underline"></div>
         <p className="projects-text">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium
-          repudiandae cupiditate ea facilis incidunt, non sapiente! Debitis
-          magnam, earum assumenda obcaecati cum quaerat facere ratione molestiae
-          dignissimos aliquid blanditiis architecto voluptates delectus
-          voluptate animi nulla! Autem explicabo perspiciatis officia ea.
+          Latest Work I have done on Different projects with different IT Companies.
         </p>
       </div>
       <div className="section-center projects-center">
         <Link to="/projects" className="project-1">
           <article className="project" data-aos="fade-right">
             <img
-              src={project1}
+              src={proj6}
               alt="single project"
               className="project-img"
             />
             <div className="project-info">
-              <h4>project title</h4>
-              <p>client name</p>
+              <h4>Invictus Store</h4>
+              <p>Invictus</p>
             </div>
           </article>
         </Link>
         <Link to="/projects" className="project-2">
           <article className="project" data-aos="fade-down">
             <img
-              src={project2}
+              src={proj2}
               alt="single project"
               className="project-img"
             />
             <div className="project-info">
-              <h4>project title</h4>
-              <p>client name</p>
+              <h4>Resume Builder</h4>
+              <p>ContentArcade</p>
             </div>
           </article>
         </Link>
         <Link to="/projects" className="project-3">
           <article className="project" data-aos="fade-up">
             <img
-              src={project3}
+              src={proj4}
               alt="single project"
               className="project-img"
             />
             <div className="project-info">
-              <h4>project title</h4>
-              <p>client name</p>
+              <h4>Helse Design Panel</h4>
+              <p>Helse Design</p>
             </div>
           </article>
         </Link>
         <Link to="/projects" className="project-4">
           <article className="project" data-aos="fade-up">
             <img
-              src={project4}
+              src={proj11}
               alt="single project"
               className="project-img"
             />
             <div className="project-info">
-              <h4>project title</h4>
-              <p>client name</p>
+              <h4>Dev Connector</h4>
+              <p>Personal</p>
             </div>
           </article>
         </Link>

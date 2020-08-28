@@ -1,40 +1,32 @@
-import React, { useEffect } from 'react';
-import AOS from 'aos'
+import React from 'react';
 
 const Footer = () => {
-  useEffect(() => {
-    AOS.init();
-    AOS.refresh();
-  }, [])
   return (
-    <footer className="footer"
-      data-aos="fade-right"
-      data-aos-easing="linear"
-      data-aos-duration="1500">
+    <footer className="footer">
       <ul className="social-icons">
         <li>
           <a href="https://www.facebook.com/mudassarali86/" target="_blank" rel="noopener noreferrer" className="social-icon">
-            <i className="fab fa-facebook" data-aos="flip-right"></i>
+            <i className="fab fa-facebook" ></i>
           </a>
         </li>
         <li>
           <a href="https://www.linkedin.com/in/mudassar-ali-59225b190/" target="_blank" rel="noopener noreferrer" className="social-icon">
-            <i className="fab fa-linkedin" data-aos="flip-right"></i>
+            <i className="fab fa-linkedin" ></i>
           </a>
         </li>
         <li>
           <a href="https://github.com/Mudassar755" target="_blank" rel="noopener noreferrer" className="social-icon">
-            <i className="fab fa-github" data-aos="flip-right"></i>
+            <i className="fab fa-github" ></i>
           </a>
         </li>
         <li>
           <a href="https://stackoverflow.com/users/11862876/mudassar-ali" target="_blank" rel="noopener noreferrer" className="social-icon">
-            <i className="fab fa-stack-overflow" data-aos="flip-right"></i>
+            <i className="fab fa-stack-overflow" ></i>
           </a>
         </li>
         <li>
           <a href="https://www.instagram.com/" target="_blank" rel="noopener noreferrer" className="social-icon">
-            <i className="fab fa-instagram" data-aos="flip-right"></i>
+            <i className="fab fa-instagram" ></i>
           </a>
         </li>
       </ul>

@@ -1,6 +1,6 @@
 import React, { useEffect } from 'react';
 import aboutImg from '../../assets/images/about-img.jpeg';
-import { Link } from 'react-router-dom';
+// import { Link } from 'react-router-dom';
 import AOS from 'aos';
 import "aos/dist/aos.css";
 
@@ -31,20 +31,16 @@ const About = () => {
             <div className="underline"></div>
           </div>
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero quae,
-            eum maiores est enim earum fugiat aspernatur. Fuga qui iste amet
-            reiciendis possimus rerum omnis recusandae molestias error
-            consequuntur, doloribus inventore reprehenderit officiis. Dolore
-            aut, repellendus eius fugiat numquam cumque.
+            I am Mudassar Ali a professional Developer. I did BS Software Engineering from
+            a Pakistan`s Well known University in 2018. I started my professional career as
+            Web Developer in 2018.
             </p>
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero quae,
-            eum maiores est enim earum fugiat aspernatur. Fuga qui iste amet
-            reiciendis possimus rerum omnis recusandae molestias error
-            consequuntur, doloribus inventore reprehenderit officiis. Dolore
-            aut, repellendus eius fugiat numquam cumque.
+            In my professional career I have worked on many complex projects in differnt roles as Front-End Developer in ReactJs, Redux-Thunk,
+            Styled-Components and many other libraries.
+            Backend Developer in Node.Js, mongoDB, GrapgQL, Appolo Server/Client, PostgreSQL, MySql, Docker
             </p>
-          <Link to="/about" className="btn">about me</Link>
+          {/* <Link to="/about" className="btn">about me</Link> */}
         </article>
       </div>
     </section>

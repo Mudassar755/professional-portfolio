@@ -25,9 +25,9 @@ const Skills = () => {
           <div className="skill">
             <p>HTML/CSS</p>
             <div className="skill-container">
-              <div className="skill-value"></div>
+              <div className="skill-value value-90"></div>
               <p className="skill-text">
-                70%
+                90%
                 </p>
             </div>
           </div>
@@ -49,15 +49,52 @@ const Skills = () => {
                 </p>
             </div>
           </div>
+          <div className="skill">
+            <p>React Router</p>
+            <div className="skill-container">
+              <div className="skill-value value-85"></div>
+              <p className="skill-text skill-text-85">
+                85%
+                </p>
+            </div>
+          </div>
+
+          <div className="skill">
+            <p>Redux</p>
+            <div className="skill-container">
+              <div className="skill-value value-85"></div>
+              <p className="skill-text skill-text-85">
+                85%
+                </p>
+            </div>
+          </div>
+          <div className="skill">
+            <p>Styled-Components</p>
+            <div className="skill-container">
+              <div className="skill-value value-85"></div>
+              <p className="skill-text skill-text-85">
+                85%
+                </p>
+            </div>
+          </div>
+          <div className="skill">
+            <p>React-Bootstrap</p>
+            <div className="skill-container">
+              <div className="skill-value value-85"></div>
+              <p className="skill-text skill-text-85">
+                85%
+                </p>
+            </div>
+          </div>
         </article>
         <article data-aos="fade-left">
           <h3>back end</h3>
           <div className="skill">
-            <p>GraphQL</p>
+            <p>Node</p>
             <div className="skill-container">
-              <div className="skill-value"></div>
-              <p className="skill-text">
-                70%
+              <div className="skill-value value-85"></div>
+              <p className="skill-text skill-text-85">
+                85%
                 </p>
             </div>
           </div>
@@ -70,15 +107,57 @@ const Skills = () => {
                 </p>
             </div>
           </div>
+
           <div className="skill">
-            <p>Node</p>
+            <p>GraphQL</p>
             <div className="skill-container">
-              <div className="skill-value value-85"></div>
-              <p className="skill-text skill-text-85">
-                85%
+              <div className="skill-value"></div>
+              <p className="skill-text">
+                70%
                 </p>
             </div>
           </div>
+
+          <div className="skill">
+            <p>Appolo</p>
+            <div className="skill-container">
+              <div className="skill-value value-80"></div>
+              <p className="skill-text skill-text-80">
+                80%
+                </p>
+            </div>
+          </div>
+
+          <div className="skill">
+            <p>MongoDB</p>
+            <div className="skill-container">
+              <div className="skill-value value-80"></div>
+              <p className="skill-text skill-text-80">
+                80%
+                </p>
+            </div>
+          </div>
+
+          <div className="skill">
+            <p>PostgreSQL</p>
+            <div className="skill-container">
+              <div className="skill-value value-80"></div>
+              <p className="skill-text skill-text-80">
+                80%
+                </p>
+            </div>
+          </div>
+
+          <div className="skill">
+            <p>MySql</p>
+            <div className="skill-container">
+              <div className="skill-value value-80"></div>
+              <p className="skill-text skill-text-80">
+                80%
+                </p>
+            </div>
+          </div>
+
         </article>
       </div>
     </section>

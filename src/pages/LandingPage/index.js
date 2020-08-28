@@ -1,4 +1,4 @@
-import React, {Fragment} from 'react';
+import React, { Fragment } from 'react';
 import Header from './Header';
 import About from './About';
 import Services from './Services';
@@ -6,7 +6,7 @@ import Projects from './Projects';
 import Contact from './Contact';
 import Skills from './Skills';
 import Testimonial from './Testimonial';
-import Blogs from './Blogs'
+// import Blogs from './Blogs'
 
 const LandingPage = () => {
     return (
@@ -18,7 +18,7 @@ const LandingPage = () => {
             <Contact />
             <Skills />
             <Testimonial />
-            <Blogs />
+            {/* <Blogs /> */}
         </Fragment>
     )
 }
