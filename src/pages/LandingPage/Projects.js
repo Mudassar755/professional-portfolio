@@ -14,6 +14,8 @@ import proj6 from '../../assets/images/proj-3.1.png';
 // import proj9 from '../../assets/images/proj-4.2.png';
 // import proj10 from '../../assets/images/proj-5.1.png';
 import proj11 from '../../assets/images/proj-6.1.png';
+import logoMaker from '../../assets/images/logo-maker.png';
+import designStudio from '../../assets/images/design-studio.png';
 
 import { Link } from 'react-router-dom'
 
@@ -56,12 +58,12 @@ const Projects = () => {
         <Link to="/projects" className="project-2">
           <article className="project" data-aos="fade-down">
             <img
-              src={proj2}
+              src={logoMaker}
               alt="single project"
               className="project-img"
             />
             <div className="project-info">
-              <h4>Resume Builder</h4>
+              <h4>Logo Maker</h4>
               <p>ContentArcade</p>
             </div>
           </article>
@@ -82,13 +84,13 @@ const Projects = () => {
         <Link to="/projects" className="project-4">
           <article className="project" data-aos="fade-up">
             <img
-              src={proj11}
+              src={designStudio}
               alt="single project"
               className="project-img"
             />
             <div className="project-info">
-              <h4>Dev Connector</h4>
-              <p>Personal</p>
+              <h4>Design Studio</h4>
+              <p>ContentArcade</p>
             </div>
           </article>
         </Link>

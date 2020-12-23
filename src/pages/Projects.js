@@ -15,6 +15,8 @@ import proj10 from '../assets/images/proj-5.1.png';
 import proj11 from '../assets/images/proj-6.1.png';
 import proj12 from '../assets/images/proj-7.1.png';
 import proj13 from '../assets/images/proj-8.1.png';
+import designStudio from '../assets/images/design-studio.png';
+import logoMaker from '../assets/images/logo-maker.png';
 
 import AOS from 'aos';
 
@@ -41,15 +43,16 @@ const Projects = () => {
         <div className="section-center projects-page-center">
           <article className="single-project" data-aos="fade-right">
             <div className="project-container">
-              <img src={proj1} alt="single project" />
-              <a href="https://designstudio.smallseotools.com/resume-builder" className="project-icon" target="_blank" rel="noopener noreferrer">
+              <img src={designStudio} alt="single project" />
+              <a href="https://designstudio.smallseotools.com" className="project-icon" target="_blank" rel="noopener noreferrer">
                 <i className="fas fa-home"></i>
               </a>
             </div>
             <div className="project-details">
-              <h4>Resume Builder</h4>
+              <h4>Design Studio</h4>
               <p>
-                A Free Resume Builder developed in React.Js,React-Roter, Redux-Thunk, React-Bootstrap, Node.Js, Express.Js, AWS
+                In Design Studio Users can create Online Resume , Different Logos, Flyers for free.
+                Techs used in this project React.Js, Next.Js, React-Roter, Redux-Thunk, React-Bootstrap, Node.Js, Express.Js, AWS
             </p>
               <div className="project-footer">
                 <span>
@@ -60,6 +63,27 @@ const Projects = () => {
             </div>
           </article>
 
+          <article className="single-project" data-aos="fade-down">
+            <div className="project-container">
+              <img src={logoMaker} alt="single project" />
+              <a href="https://www.logomaker.net/" className="project-icon" target="_blank" rel="noopener noreferrer">
+                <i className="fas fa-home"></i>
+              </a>
+            </div>
+            <div className="project-details">
+              <h4>Logo Maker</h4>
+              <p>
+                In Logo Maker users can create different types of logos for free.
+                This project Built with React.Js, Next.Js, React-Roter, Redux-Thunk, React-Bootstrap, Node.Js, MongoDB, Express.Js, AWS.
+            </p>
+              <div className="project-footer">
+                <span>
+                  <i className="fab fa-github"></i>
+                </span>
+                <a href="https://www.github.com" target="_blank" rel="noopener noreferrer">source code</a>
+              </div>
+            </div>
+          </article>
           <article className="single-project" data-aos="fade-down">
             <div className="project-container">
               <img src={proj4} alt="single project" />
