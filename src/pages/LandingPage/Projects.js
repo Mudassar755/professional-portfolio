@@ -4,7 +4,7 @@ import React, { useEffect } from 'react';
 // import project3 from '../../assets/images/project-3.jpeg';
 // import project4 from '../../assets/images/project-4.jpeg';
 // import proj1 from '../../assets/images/proj-1.1.png';
-import proj2 from '../../assets/images/proj-1.2.png';
+// import proj2 from '../../assets/images/proj-1.2.png';
 // import proj3 from '../../assets/images/proj-1.3.png';
 import proj4 from '../../assets/images/proj-2.1.png';
 // import proj5 from '../../assets/images/proj-2.2.png';
@@ -13,7 +13,7 @@ import proj6 from '../../assets/images/proj-3.1.png';
 // import proj8 from '../../assets/images/proj-4.1.png';
 // import proj9 from '../../assets/images/proj-4.2.png';
 // import proj10 from '../../assets/images/proj-5.1.png';
-import proj11 from '../../assets/images/proj-6.1.png';
+// import proj11 from '../../assets/images/proj-6.1.png';
 import logoMaker from '../../assets/images/logo-maker.png';
 import designStudio from '../../assets/images/design-studio.png';
 

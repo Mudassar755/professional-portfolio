@@ -2,7 +2,7 @@ import React, { useEffect } from 'react';
 // import project_1 from '../assets/images/project-1.jpeg';
 // import project_2 from '../assets/images/project-4.jpeg';
 // import project_3 from '../assets/images/project-3.jpeg';
-import proj1 from '../assets/images/proj-1.1.png';
+// import proj1 from '../assets/images/proj-1.1.png';
 // import proj2 from '../assets/images/proj-1.2.png';
 // import proj3 from '../assets/images/proj-1.3.png';
 import proj4 from '../assets/images/proj-2.1.png';
